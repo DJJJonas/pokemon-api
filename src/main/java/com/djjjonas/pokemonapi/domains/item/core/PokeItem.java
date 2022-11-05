@@ -62,5 +62,5 @@ public class PokeItem {
     private List<PokeItemEffectEntry> effectEntries;
     private List<PokeItemFlavorTextEntry> flavorTextEntries;
     private List<PokeItemName> names;
-    private List<PokeItemSprite> sprites;
+    private PokeItemSprite sprites;
 }
