@@ -1,0 +1,24 @@
+package com.djjjonas.pokemonapi.domains.item.infrastructure.query;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.djjjonas.pokemonapi.domains.item.application.query.GetPokeItemByNameOrIdQuery;
+import com.djjjonas.pokemonapi.domains.item.application.query.GetPokeItemByNameOrIdQueryHandler;
+
+import lombok.AllArgsConstructor;
+import tech.rocketwave.airway.Airway;
+
+@Configuration
+@AllArgsConstructor
+public class GetPokeItemByNameOrIdQueryHandlerConfiguration {
+
+    private Airway airway;
+
+    @Bean
+    public GetPokeItemByNameOrIdQueryHandler getPokeItemByNameOrIdQueryHandler() {
+        var handle = getPokeItemByNameOrIdQueryHandler();
+        airway.register(GetPokeItemByNameOrIdQuery.class, handle);
+        return handle;
+    }
+}
