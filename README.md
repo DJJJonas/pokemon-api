@@ -1,11 +1,11 @@
-# Pokemon API
+# <img src='https://icon-library.com/images/pokeball-icon-transparent/pokeball-icon-transparent-26.jpg' width='24'> Just Another Pokémon API <img src='https://icon-library.com/images/pokeball-icon-transparent/pokeball-icon-transparent-26.jpg' width='24'>
 
 ## Instructions
 
 To run the server, use the following commmand on the terminal.
 
-- Linux/MacOS `./gradlew bootRun`
-- Windows `./gradlew.bat bootRun`
+- Linux/MacOS <img src='https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/OS-Linux-icon.png' width='16'> `./gradlew bootRun`
+- Windows <img src='https://pnggrid.com/wp-content/uploads/2021/06/Windows-11-Icon-Logo.png' width='16'> `./gradlew.bat bootRun`
 
 ## Endpoints
 
