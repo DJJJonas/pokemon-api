@@ -12,6 +12,7 @@ public class PokeAPIWebClient {
     public WebClient webClientPokemon(WebClient.Builder builder) {
         return builder
                 .baseUrl("https://pokeapi.co/api/v2")
+                .codecs(codecs -> codecs.defaultCodecs().maxInMemorySize(16_777_216))
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
                 .build();
     }
