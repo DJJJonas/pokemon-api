@@ -1,5 +1,5 @@
 # <img src='https://icon-library.com/images/pokeball-icon-transparent/pokeball-icon-transparent-26.jpg' width='24'> Just Another Pokémon API <img src='https://icon-library.com/images/pokeball-icon-transparent/pokeball-icon-transparent-26.jpg' width='24'>
-
+*This project is a Java Spring API that was made to demonstrate the [**Airway**](https://gitlab.com/rocketwave-tech/airway) library potential. Credits to [**Rocketwave**](https://gitlab.com/rocketwave-tech) enterprise.*
 ## Instructions
 
 To run the server, use the following commmand on the terminal.
